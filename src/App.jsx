@@ -14,7 +14,7 @@ export const App = () => {
       <main> 
         <Switch>
           <Route exact path="/movies/:movieId"><MovieDetails /></Route>
-          <Route path="/"><LandingPages/></Route>
+          <Route path="/"><LandingPages /></Route>
         </Switch>
       </main>
     </Router>
