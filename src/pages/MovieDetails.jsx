@@ -6,8 +6,8 @@ import styles from './MovieDetails.module.css';
 
 export const MovieDetails = () => {
     const { movieId } = useParams();
-    const [movie, setMovie] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
+    const [movie, setMovie] = useState(null);
 
     console.log(movieId);
     useEffect(() => {
